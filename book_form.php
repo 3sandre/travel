@@ -1,6 +1,6 @@
 <?php
 
-   $connection = mysqli_connect('localhost','root','','bookdb');
+   $connection = mysqli_connect('mysql-sandrine.alwaysdata.net','sandrine','Mva3ille','sandrine_port');
 
    if(isset($_POST['send'])){
       $name = $_POST['name'];

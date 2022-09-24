@@ -23,10 +23,10 @@
 
 <section class="header">
 
-   <a href="home.php" class="logo">Voyage</a>
+   <a href="index.php" class="logo">Voyage</a>
 
    <nav class="navbar">
-      <a href="home.php">accueil</a>
+      <a href="index.php">accueil</a>
       <a href="about.php">à propos</a>
       <a href="package.php">paquet</a>
       <a href="book.php">réserver</a>
@@ -261,7 +261,7 @@
 
       <div class="box">
          <h3>liens rapides</h3>
-         <a href="home.php"> <i class="fas fa-angle-right"></i> accueil</a>
+         <a href="index.php"> <i class="fas fa-angle-right"></i> accueil</a>
          <a href="about.php"> <i class="fas fa-angle-right"></i> à propos de nous</a>
          <a href="package.php"> <i class="fas fa-angle-right"></i> paquet</a>
          <a href="book.php"> <i class="fas fa-angle-right"></i> réserver</a>

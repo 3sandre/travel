@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" href="./images/favicon.jpeg"/>
    <title>VOYAGE</title>
 
    <!-- swiper css link  -->
@@ -22,13 +23,13 @@
 
 <section class="header">
 
-   <a href="home.html" class="logo">Voyage</a>
+   <a href="home.php" class="logo">Voyage</a>
 
    <nav class="navbar">
-      <a href="home.html">accueil</a>
-      <a href="about.html">à propos</a>
-      <a href="package.html">paquet</a>
-      <a href="book.html">réserver</a>
+      <a href="home.php">accueil</a>
+      <a href="about.php">à propos</a>
+      <a href="package.php">paquet</a>
+      <a href="book.php">réserver</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -49,7 +50,7 @@
             <div class="content">
                <span>explorer, découvrir, voyager</span>
                <h3>Voyage autour du monde</h3>
-               <a href="package.html" class="btn">découvrir plus</a>
+               <a href="package.php" class="btn">découvrir plus</a>
             </div>
          </div>
 
@@ -57,7 +58,7 @@
             <div class="content">
                <span>explorer, découvrir, voyager</span>
                <h3>découvrir les endroits</h3>
-               <a href="package.html" class="btn">découvrir plus</a>
+               <a href="package.php" class="btn">découvrir plus</a>
             </div>
          </div>
 
@@ -65,7 +66,7 @@
             <div class="content">
                <span>explorer, découvrir, voyager</span>
                <h3>Rendez vos voyages meilleurs</h3>
-               <a href="package.html" class="btn">découvrir plus</a>
+               <a href="package.php" class="btn">découvrir plus</a>
             </div>
          </div>
          
@@ -89,32 +90,32 @@
    <div class="box-container">
 
       <div class="box">
-         <img src="images/icon-1.png" alt="">
+         <img src="images/icon1.png" alt="">
          <h3>aventure</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-2.png" alt="">
+         <img src="images/icon2.png" alt="">
          <h3>guide touristique</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-3.png" alt="">
+         <img src="images/icon3.png" alt="">
          <h3>randonnée</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-4.png" alt="">
+         <img src="images/icon4.png" alt="">
          <h3>camp de feu</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-5.png" alt="">
+         <img src="images/icon5.png" alt="">
          <h3>hors des sentiers battus</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-6.png" alt="">
+         <img src="images/icon6.png" alt="">
          <h3>camping</h3>
       </div>
 
@@ -136,7 +137,7 @@
       <h3>A propos de nous</h3>
       <p>Nous offrons Les meilleurs offres de voyage, une réservation flexible</p>
       <p>Voyagez avec moins de CO₂ , vérifié et gratuit</p>
-      <a href="about.html" class="btn">Lire plus</a>
+      <a href="about.php" class="btn">Lire plus</a>
    </div>
 
 </section>
@@ -158,37 +159,38 @@
          <div class="content">
             <h3>aventure & voyage</h3>
             <p>La cascade de Kpimé est alimentée par les cours d'eau qui viennent des hauts plateaux .</p>
-            <a href="book.html" class="btn">réserver maintenant</a>
+            <a href="book.php" class="btn">réserver maintenant</a>
          </div>
       </div>
 
       <div class="box">
       <div class="image">
-            <img src="images/img8.jpeg" alt="">
+            <img src="images/img13.jpeg" alt="">
          </div>
          <div class="content">
-            <h3>aventure & voyage</h3>
-            <p>La ville d'atakpamé.</p>
-            <a href="book.html" class="btn">réserver maintenant</a>
+            <h3>Guide touristique</h3>
+            <p>Laisser nous vous faire visité les merveilles du togo</p>
+            <a href="book.php" class="btn">réserver maintenant</a>
          </div>
       </div>
       
       <div class="box">
       <div class="image">
-            <img src="images/img9.jpeg" alt="">
+            <img src="images/img14.jpeg" alt="">
          </div>
          <div class="content">
-            <h3>aventure & voyage</h3>
-            <p>La ville de kpalimé.</p>
-            <a href="book.html" class="btn">réserver maintenant</a>
+            <h3>Camping</h3>
+            <p>Camper en contact de la nature et des doux chants des oiseaux d'ici</p>
+            <a href="book.php" class="btn">réserver maintenant</a>
          </div>
       </div>
 
    </div>
 
-   <div class="load-more"> <a href="package.html" class="btn">voir plus</a> </div>
+   <div class="load-more"> <a href="package.php" class="btn">voir plus</a> </div>
 
 </section>
+
 
 <!-- home packages section ends -->
 
@@ -196,11 +198,42 @@
 
 <section class="home-offer">
    <div class="content">
-      <h3>jusqu'à 50% de réduction</h3>
+      <h3>Voyager dans le luxes mais dépenser moins, jusqu'à 50% de réduction</h3>
       <p>Bénéficier de plus d'aventure à moindre prix</p>
-      <a href="book.html" class="btn">réserver maintenant</a>
+      <a href="book.php" class="btn">réserver maintenant</a>
    </div>
 </section>
+<section class="home-packages">
+
+   <h1 class="heading-title"> Nos moyens de déplacement </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img22.jpeg" alt="">
+         </div>
+      </div>
+      <div class="box">
+         <div class="image">
+            <img src="images/img23.jpeg" alt="">
+         </div>
+      </div>
+      <div class="box">
+         <div class="image">
+            <img src="images/img24.jpeg" alt="">
+         </div>
+      </div>
+      <div class="box">
+         <div class="image">
+            <img src="images/img25.jpeg" alt="">
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
 
 <!-- home offer section ends -->
 
@@ -228,17 +261,17 @@
 
       <div class="box">
          <h3>liens rapides</h3>
-         <a href="home.html"> <i class="fas fa-angle-right"></i> accueil</a>
-         <a href="about.html"> <i class="fas fa-angle-right"></i> à propos de nous</a>
-         <a href="package.html"> <i class="fas fa-angle-right"></i> paquet</a>
-         <a href="book.html"> <i class="fas fa-angle-right"></i> livre</a>
+         <a href="home.php"> <i class="fas fa-angle-right"></i> accueil</a>
+         <a href="about.php"> <i class="fas fa-angle-right"></i> à propos de nous</a>
+         <a href="package.php"> <i class="fas fa-angle-right"></i> paquet</a>
+         <a href="book.php"> <i class="fas fa-angle-right"></i> réserver</a>
       </div>
 
       <div class="box">
          <h3>informations de contact</h3>
-         <a href="tel:00228 90 00 00 00"> <i class="fas fa-phone"></i> +228 90 00 00 00 </a>
-         <a href="tel:00228 79 00 00 00"> <i class="fas fa-phone"></i> +228 79 00 00 00 </a>
-         <a href="mailto:alexandratohe@gmail.com"> <i class="fas fa-envelope"></i> alexandratohe@gmail.com </a>
+         <a href="tel:00228 93696128"> <i class="fas fa-phone"></i> +228 93696128 </a>
+         <a href="tel:00228 79686744"> <i class="fas fa-phone"></i> +228 79686744 </a>
+         <a href="mailto:sandrinetohe5@gmail.com"> <i class="fas fa-envelope"></i> sandrinetohe5@gmail.com </a>
          <a href="#"> <i class="fas fa-map"></i> togo, lomé - BP:00107 </a>
       </div>
 
@@ -249,7 +282,7 @@
 
    </div>
 
-   <div class="credit"> créé par <span>alexandra. web devellopper</span> | tous droits réservés! </div>
+   <div class="credit"> créé par <span>sandrine. web devellopper</span> | tous droits réservés! </div>
 
 </section>
 

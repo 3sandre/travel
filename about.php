@@ -4,7 +4,8 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>A PROPOS</title>
+   <link rel="icon" type="image/png" href="./images/favicon.jpeg"/>
+   <title>VOYAGE</title>
 
    <!-- swiper css link  -->
    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -22,13 +23,13 @@
 
 <section class="header">
 
-   <a href="home.html" class="logo">Voyage</a>
+   <a href="home.php" class="logo">Voyage</a>
 
    <nav class="navbar">
-      <a href="home.html">accueil</a>
-      <a href="about.html">à propos</a>
-      <a href="package.html">paquet</a>
-      <a href="book.html">réserver</a>
+      <a href="home.php">accueil</a>
+      <a href="about.php">à propos</a>
+      <a href="package.php">paquet</a>
+      <a href="book.php">réserver</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -196,17 +197,17 @@
 
       <div class="box">
          <h3>liens rapides</h3>
-         <a href="home.html"> <i class="fas fa-angle-right"></i> accueil</a>
-         <a href="about.html"> <i class="fas fa-angle-right"></i> à propos de nous</a>
-         <a href="package.html"> <i class="fas fa-angle-right"></i> paquet</a>
-         <a href="book.html"> <i class="fas fa-angle-right"></i> livre</a>
+         <a href="home.php"> <i class="fas fa-angle-right"></i> accueil</a>
+         <a href="about.php"> <i class="fas fa-angle-right"></i> à propos de nous</a>
+         <a href="package.php"> <i class="fas fa-angle-right"></i> paquet</a>
+         <a href="book.php"> <i class="fas fa-angle-right"></i> réserver</a>
       </div>
 
       <div class="box">
          <h3>informations de contact</h3>
-         <a href="tel:00228 90 00 00 00"> <i class="fas fa-phone"></i> +228 90 00 00 00 </a>
-         <a href="tel:00228 79 00 00 00"> <i class="fas fa-phone"></i> +228 79 00 00 00 </a>
-         <a href="mailto:alexandratohe@gmail.com"> <i class="fas fa-envelope"></i> alexandratohe@gmail.com </a>
+         <a href="tel:00228 93696128"> <i class="fas fa-phone"></i> +228 93696128 </a>
+         <a href="tel:00228 79686744"> <i class="fas fa-phone"></i> +228 79686744 </a>
+         <a href="mailto:sandrinetohe5@gmail.com"> <i class="fas fa-envelope"></i> sandrinetohe5@gmail.com </a>
          <a href="#"> <i class="fas fa-map"></i> togo, lomé - BP:00107 </a>
       </div>
 
@@ -217,10 +218,9 @@
 
    </div>
 
-   <div class="credit"> créé par <span>alexandra. web devellopper</span> | tous droits réservés! </div>
+   <div class="credit"> créé par <span>sandrine. web devellopper</span> | tous droits réservés! </div>
 
 </section>
-
 <!-- footer section ends -->
 
 

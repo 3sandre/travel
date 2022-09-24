@@ -36,7 +36,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-   background-color: var(--main-color);
+   background-color: var(--black);
 }
 
 section{
@@ -78,7 +78,7 @@ section{
 }
 
 .btn:hover{
-   background: var(--main-color);
+   background: var(rgb(227, 128, 128));
 }
 
 .heading-title{
@@ -223,7 +223,7 @@ section{
    font-size: 1.7rem;
    padding-top: 1rem;
 }
-
+/* =====================home=================== */
 .home-about{
    display: flex;
    align-items: center;
@@ -331,7 +331,7 @@ section{
    line-height: 2;
    padding:1rem 0;
 }
-
+/* ========================about====================== */
 .about{
    display: flex;
    align-items: center;
@@ -389,7 +389,7 @@ section{
    color:var(--light-black);
    display:block;
 }
-
+/* =================reviews========================= */
 .reviews{
    background: var(--light-bg);
 }
@@ -436,7 +436,7 @@ section{
    border-radius: 50%;
    margin-top: 1rem;
 }
-
+/* ======================packages=================== */
 .packages .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -496,7 +496,7 @@ section{
    text-align: center;
    margin-top: 2rem;
 }
-
+/* ======================booking=================== */
 .booking .book-form{
    padding:2rem;
    background: var(--light-bg);
@@ -546,11 +546,11 @@ section{
 
 
 
-
+/* ==================footer================================ */
 
 
 .footer{
-   background: url(../images/footer-bg.jpg) no-repeat;
+   background: url(../images/footer.jpg) no-repeat;
    background-size: cover;
    background-position: center;
 }

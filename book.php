@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" href="./images/favicon.jpeg"/>
    <title>VOYAGE</title>
 
    <!-- swiper css link  -->
@@ -22,13 +23,13 @@
 
 <section class="header">
 
-   <a href="home.html" class="logo">Voyage</a>
+   <a href="home.php" class="logo">Voyage</a>
 
    <nav class="navbar">
-      <a href="home.html">accueil</a>
-      <a href="about.html">à propos</a>
-      <a href="package.html">paquet</a>
-      <a href="book.html">réserver</a>
+      <a href="home.php">accueil</a>
+      <a href="about.php">à propos</a>
+      <a href="package.php">paquet</a>
+      <a href="book.php">réserver</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -37,7 +38,7 @@
 
 <!-- header section ends -->
 
-<div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
+<div class="heading" style="background:url(images/header2.png) no-repeat">
    <h1>réserver maintenant</h1>
 </div>
 
@@ -47,47 +48,43 @@
 
    <h1 class="heading-title">réservez votre billet !</h1>
 
-   <form action="book_form.php" method="post" class="book-form">
-
+   <form action="form.php" method="post" class="book-form">
       <div class="flex">
          <div class="inputBox">
             <span>Nom :</span>
-            <input type="text" placeholder="entrez votre nom" name="name">
+            <input type="text" placeholder="Entrer votre nom" name="name" required>
          </div>
          <div class="inputBox">
             <span>Email :</span>
-            <input type="email" placeholder="entrez votre email" name="email">
+            <input type="email" placeholder="Entrer votre email" name="email" required>
          </div>
          <div class="inputBox">
             <span>Numéro :</span>
-            <input type="number" placeholder="entrez votre numéro" name="phone">
+            <input type="number" placeholder="Entrer votre numéro" name="phone" required>
          </div>
          <div class="inputBox">
-            <span>address :</span>
-            <input type="text" placeholder="entrez votre addresse" name="address">
+            <span>Address :</span>
+            <input type="text" placeholder="Entrer votre address" name="address" required>
          </div>
          <div class="inputBox">
-            <span>où aller :</span>
-            <input type="text" placeholder="le lieu que vous voulez visiter" name="location">
+            <span>Où aller :</span>
+            <input type="text" placeholder="Entrer le lieu à visiter" name="location" required>
          </div>
          <div class="inputBox">
             <span>Nombres :</span>
-            <input type="number" placeholder="nombre de personne" name="guests">
+            <input type="number" placeholder="Entrer le nombre de personne" name="guests" required>
          </div>
          <div class="inputBox">
-            <span>arrivées :</span>
-            <input type="date" name="arrivée">
+            <span>Arrivées :</span>
+            <input type="date" name="arrivals" required>
          </div>
          <div class="inputBox">
-            <span>départ :</span>
-            <input type="date" name="départ">
+            <span>Départ :</span>
+            <input type="date" name="leaving" required>
          </div>
       </div>
-
-      <input type="entrer" value="submit" class="btn" name="send">
-
+      <button type="submit" value="submit" class="btn" name="send">Entrer</button>
    </form>
-
 </section>
 
 <!-- booking section ends -->
@@ -116,17 +113,17 @@
 
       <div class="box">
          <h3>liens rapides</h3>
-         <a href="home.html"> <i class="fas fa-angle-right"></i> accueil</a>
-         <a href="about.html"> <i class="fas fa-angle-right"></i> à propos de nous</a>
-         <a href="package.html"> <i class="fas fa-angle-right"></i> paquet</a>
-         <a href="book.html"> <i class="fas fa-angle-right"></i> livre</a>
+         <a href="home.php"> <i class="fas fa-angle-right"></i> accueil</a>
+         <a href="about.php"> <i class="fas fa-angle-right"></i> à propos de nous</a>
+         <a href="package.php"> <i class="fas fa-angle-right"></i> paquet</a>
+         <a href="book.php"> <i class="fas fa-angle-right"></i> réserver</a>
       </div>
 
       <div class="box">
          <h3>informations de contact</h3>
-         <a href="tel:00228 90 00 00 00"> <i class="fas fa-phone"></i> +228 90 00 00 00 </a>
-         <a href="tel:00228 79 00 00 00"> <i class="fas fa-phone"></i> +228 79 00 00 00 </a>
-         <a href="mailto:alexandratohe@gmail.com"> <i class="fas fa-envelope"></i> alexandratohe@gmail.com </a>
+         <a href="tel:00228 93696128"> <i class="fas fa-phone"></i> +228 93696128 </a>
+         <a href="tel:00228 79686744"> <i class="fas fa-phone"></i> +228 79686744 </a>
+         <a href="mailto:sandrinetohe5@gmail.com"> <i class="fas fa-envelope"></i> sandrinetohe5@gmail.com </a>
          <a href="#"> <i class="fas fa-map"></i> togo, lomé - BP:00107 </a>
       </div>
 
@@ -137,7 +134,7 @@
 
    </div>
 
-   <div class="credit"> créé par <span>alexandra. web devellopper</span> | tous droits réservés! </div>
+   <div class="credit"> créé par <span>sandrine. web devellopper</span> | tous droits réservés! </div>
 
 </section>
 
